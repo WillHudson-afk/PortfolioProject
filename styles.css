@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 0.3px;
+    background-color: #abb9f4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20rem;
+}
+
+header p {
+    font-family: Bacalisties;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+header nav {
+    padding-right: 30px;
+    display: flex;
+    gap: 2em;
+}
+
+header nav a {
+    font-weight: 550;
+    color: #2A4C4F;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(#abb9f4 55%, #E1D8C3 75%);
+}
+
+
+main {
+    background-image: url();
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#myIcon {
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+#intro {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 2em;
+    padding-bottom: 30px;
+    margin-bottom: 20rem;
+}
+
+#intro strong span {
+    font-weight: bolder;
+    font-size: 34px;
+    line-height: 4em;
+}
+
+#aboutMe {
+    line-height: 2em;
+    margin-bottom: 20rem;
+}
+
+#aboutMe h2 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 4em;
+}
+
+#webDev {
+    color: rgb(224, 7, 7);
+    font-style: italic;
+}
+
+#projects {
+    margin-bottom: 5em;
+    line-height: 1.5em;
+}
+
+#toDoMoreInfo {
+    display: none;
+}
+
+#luhnsMoreInfo {
+    display: none;
+}
+
+#dnaMoreInfo {
+    display: none;
+}
+
+#buttons img {
+    height: 2em;
+}
+
+main h2 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 4em;
+}
+
+
+
+@media screen and (min-width: 1613px) {
+    #myIcon {
+        border: solid gold 5px;
+    }
+
+}
+
+@media screen and (max-width: 1594px) {
+    #intro strong span {
+        line-height: 1em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #myIcon {
+        display: none !important;
+    }
+}

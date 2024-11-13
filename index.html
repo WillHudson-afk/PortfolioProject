@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <p>WH</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#projects">My Projects</a>
+            <a href="contact.html">Hire Me</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="intro">
+            <strong><span>Hi, I'm Will Hudson &#128075;</span><br>I'm an aspiring Full Stack Engineer from Northampton currently learning<br>HTML/CSS, Javascript & Python. Focusing on Web Development, I enjoy being able to provide functionality to websites.</strong>
+            <img id="myIcon" src="images/user-circle.svg">
+        </div>
+        <div id="aboutMe">
+            <h2>About Me</h2>
+            <strong>I'm 23 Years Old and always had an interest in Computers, whether it be building them or playing on them. I first started taking interest in development at 15, but <span id="webDev">Web Development</span> in 2023, where I've started the Codecademy Full Stack Engineer course.
+            I strive to learn and feel a strong sense of accomplishment when information i've learned is realised in my work.    
+            </strong>
+        </div>
+        <h2>My Projects</h2>
+        <div id="projects">
+            <div id="toDo" class="bold" onclick="toggleVisibility()">&#x27A4; To Do App</div>
+            <div id="toDoMoreInfo">Created a simple To Do site, which allows you to click to add things to do and delete them once completed.</div>
+            <div id="luhns" class="bold" onclick="toggleVisibility2()">&#x27A4;    Luhn's checker</div>
+            <div id="luhnsMoreInfo">Created a card checker which goes through each digit and sees if it is correctly formatted with Luhn's.</div>
+            <div id="dna" class="bold" onclick="toggleVisibility3()">&#x27A4;  DNA Mutation</div>
+            <div id="dnaMoreInfo">Created a DNA mutator which can check which digits in a string of DNA are the same and change them.</div>
+        </div>
+        <div id="buttons">
+            <a href="https://github.com/WillHudson-afk" target="_blank"><img src="images/github-mark.svg"></a>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
